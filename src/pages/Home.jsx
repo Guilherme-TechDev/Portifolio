@@ -210,10 +210,21 @@ export default function Home() {
               VER DETALHES COMPLETOS <span className="inline-block group-hover:translate-x-2 transition-transform">→</span>
             </Link>
           </div>
-          <div className="w-full md:w-1/2 h-[450px] bg-[#1e293b] rounded-[2.5rem] border-[12px] border-[#334155] flex items-center justify-center">
-             <p className="text-sky-500 font-mono text-[10px] animate-pulse uppercase italic tracking-widest">Dashboard Loading...</p>
+                  <div className="w-full md:w-1/2 aspect-video bg-[#1e293b] rounded-[2.5rem] border-[12px] border-[#334155] overflow-hidden">
+            <div className="w-full h-full relative">
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/BOwwKeFOkuc?autoplay=1&mute=1&loop=1&playlist=BOwwKeFOkuc"
+                title="Demo - Sistema Odontológico"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
-        </div>
+
+
+             </div>
 
         {/* PROJETO 2 */}
         <div className="proj-2 flex flex-col md:flex-row-reverse w-full gap-20 items-center">
